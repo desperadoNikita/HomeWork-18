@@ -4,7 +4,7 @@
  const passwordInput = document.getElementById("password");
 
  form.addEventListener("submit", (event) => {
-    event.prevent();
+    event.preventDefault();
 
     const username = usernameInput.value;
     const password = passwordInput.value;
